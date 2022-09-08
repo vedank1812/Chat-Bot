@@ -1,0 +1,48 @@
+{"intents": [
+    {"tag" : "greetings",
+    "patterns" : ["Hi there", "Hey" , "Hola" , "Hello" , "Hey, There"],
+    "responses" : ["Hello,thanks for asking" , "Good To See you again" , "Hi,There How Can I Help You?"],
+    "context" : [""]
+    },
+    {"tag" : "Salutations",
+        "patterns" : ["How Are You" , "Whatsup" , "How Is It Going"],
+        "responses" : ["I am Good", "I am Doing Good, I Hope You are also doing Great", "I am Great , How About You" , "I am Great" , "Good"],
+        "context" : [""]
+    },
+    {"tag" : "Weather",
+        "patterns" : ["How's The Weather"],
+        "responses" : ["You Can Check The Weather At --> https://www.google.com/search?q=weather"],
+        "context" : [""]
+    },
+    {"tag" : "goodbye",
+    "patterns" : ["Bye" , "Good To See You" , "See You later" , "GoodBye" , "Nice Chatting to you, bye"],
+    "responses" : ["See You!" , "Have a nice day" , "Bye! Come Back Soon."],
+    "context" : [""]
+    },
+    {"tag" : "thanks",
+    "patterns" : ["Thanks","Thank You" , "That's helpful" , "Awesome, thanks" , "Thanks for helping me"],
+    "responses" : ["Happy To Help!", "Any Time" , "My Pleasure!"],
+    "context" : [""]
+    },
+    {"tag" : "noanswer",
+    "patterns" : [],
+    "responses" : ["Sorry Can't Understand" , "Please Give Me More Info" , "Please Reply"],
+    "context" : [""]
+    },
+    {"tag":"package",
+    "patterns" :["average salary","package","annual money","highest package"],
+    "responses":["highest was 55 LPA","5LPA","we have 100% placement","i need to check"],
+    "context":[""]
+    },
+    {"tag":"campus",
+    "patterns" :["campus size","campus","campuses","size"],
+    "responses":["we have 4 campuses","we have deemed campus which is quite big","deemed campus is the biggest while bhimtal campus is very beautiful","Deemed campus"],
+    "context":[""]
+    },
+    {"tag":"Studies",
+    "patterns" :["faculty","studies","study","teachers"],
+    "responses":["we have highly educated teachers","our teachers are highly proficient in their fields","we have very talented teachers","we have very great tecahers"],
+    "context":[""]
+    }
+
+]}
